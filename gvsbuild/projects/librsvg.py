@@ -34,7 +34,6 @@ class Librsvg(Tarball, Project):
                 "pango",
                 "gdk-pixbuf",
                 "libxml2",
-                "freetype",
             ],
         )
         if Project.opts.enable_gi:
